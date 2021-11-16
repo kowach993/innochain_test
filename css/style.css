@@ -381,6 +381,10 @@ main {
         height: 1100px;
     }
 
+    #scroll_btn {
+        font-size: 16px;
+    }
+
     #services {
         display: flex;
         flex-direction: row;
