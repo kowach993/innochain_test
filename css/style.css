@@ -23,7 +23,6 @@ button:hover {
 }
 
 footer {
-    height: 600px;
     background-color: #004A94;
     display: grid;
     justify-content: center;
@@ -50,14 +49,7 @@ label {
 }
 
 nav {
-    width: 1024px;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 10px;
-    padding-left: 10px;
+    
 }
 
 main {
@@ -67,12 +59,9 @@ main {
 #cards {
     z-index: 1;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     position:relative;
-    top: 80px;
-    width: 1024px;
     margin: auto;
 }
 
@@ -88,22 +77,8 @@ main {
 }
 
 #footer_container {
-    width: 1024px;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
     justify-content:space-around;
-    padding-top: 50px;
-}
-
-#hero {
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 100px 500px;
-    justify-content: center;
-    align-items: center;
 }
 #hero_title, #hero_subtitle, #hero_paragraph {
     text-align: center;
@@ -153,15 +128,12 @@ main {
 }
 
 #main_paragraph {
-    font-size: 20px;
     color: #373737;
     text-align: center;
-    width: 930px;
     margin: auto;
 }
 
 #section_one {
-    height: 350px;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -183,11 +155,7 @@ main {
 
 #services {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
     justify-content: space-around;
-    align-items: center;
-    width: 1024px;
     position: relative;
     top: 50px;
 }
@@ -280,7 +248,6 @@ main {
 }
 
 .section_two_text {
-    font-size: 20px;
     color: white;
     flex-basis: 100%;
     text-align: center;
@@ -312,16 +279,28 @@ main {
     a {
         text-decoration: none!important;
         font-size: 40px;
-        color: white!important;
+        color: #004A94!important;
     }
 
-    nav {
-        width: 90vw;
+    footer {
+        position: relative;
+        top: 1500px;
+    }
+
+    #cards {
+        flex-direction: column;
+        top: 50px;
     }
 
     #hero {
         background-image: url("/images/hero_img_mobile.jpg");
         height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #hero_text {
+        margin-top: 100px;
     }
 
     #hero_title, #hero_subtitle, #hero_paragraph {
@@ -331,18 +310,34 @@ main {
     #hero_title {
         font-size: 30px;
         color: #004A94;
-        font-weight: 400;
+        font-weight:500;
     }
     
     #hero_subtitle {
-        width: 320px;
-        font-size: 26px;
+        padding: 5px 30px;
+        font-size: 24px;
         font-weight: 400;
         margin: 0;
     }
     
     #hero_paragraph {
-        font-size: 18px;
+        font-size: 20px;
+        padding: 5px 30px;
+    }
+
+    #footer_container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-content:space-around;
+        padding-top: 150px;
+        padding: 50px;
+    }
+
+    #footer_text_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     #langSelector {
@@ -356,6 +351,87 @@ main {
 
     #nav_links {
         display: none;
+    }
+
+    #navbarNav {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        height: 100vh!important;
+        background-color: #ffffff;
+        z-index: 1;
+    }
+
+    #nav-close-bar {
+        float: right;
+        margin: 15px;
+    }
+    
+    #main_paragraph {
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    #section_one {
+        height: 400px;
+    }
+
+    #section_two {
+        height: 1100px;
+    }
+
+    #services {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #services_title {
+        flex-basis: 100%;
+    }
+
+    .footer_text {
+        flex-basis: 50%;
+    }
+
+    .footer_text_title {
+        flex-basis: 100%;
+    }
+
+    .services_links {
+        flex-basis: 50%!important;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .navbar-nav {
+        margin-top: 170px;
+        text-align: center;
+    }
+
+    .navbar-brand {
+        z-index: 2;
+    }
+
+    .nav_btn {
+        border: none;
+        font-size: 40px;
+    }
+    
+    .section_two_text {
+        font-size: 18px;
+    }
+
+    .fa-bars {
+        color: #004A94;
+    }
+
+    .fa-times {
+        color: #004A94;
     }
 }
 
@@ -375,9 +451,26 @@ main {
         width: 1024px;
     }
 
+    footer {
+        height: 800px;
+    }
+
+    #cards {
+        width: 1024px;
+        top: 80px;
+        flex-direction: row;
+    }
+
     #hero {
         background-image: url("/images/hero_img.jpg");
         height: 650px;
+        grid-template-rows: 100px 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
     }
 
     #hero_title, #hero_subtitle, #hero_paragraph {
@@ -396,11 +489,47 @@ main {
         font-size: 24px;
     }
 
+    #footer_container {
+        width: 1024px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        justify-content:space-around;
+        padding-top: 150px;
+    }
+
     #langSelector {
         padding: 5px 15px;
         border: 1px solid #004A94;
         background-color: #004A94;
         margin-right: 10;
         font-size: 17px;
+    }
+
+    #main_paragraph {
+        width: 960px;
+        font-size: 20px;
+    }
+
+    #section_one {
+        height: 350px;
+    }
+
+    #section_two {
+        height: 1000px;
+    }
+
+    #services {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        width: 1024px;
+    }
+
+    .nav_btn {
+        display: none;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
     }
 }
