@@ -40,7 +40,10 @@ lang = {
         ':ContactUS': 'Contact us',
         ':Contactinfo': 'Contact info',
         ':Message': 'Message',
-        ':submit' : 'Submit'
+        ':submit' : 'Submit',
+        ':AboutUsTitle' : 'About us',
+        ':FristAboutText' : '<span style="font-size: 30px; color: #004A94;">InnoChain Solutions (ICS) </span>is a pro-studded, private, and independent global company built and  joint by a collaboration of procurement services specialists and digital technology experts from top companies in the world. With our work experiences and accumulated researches for many years in our respective job fields, we are fully equipped to assure our clients that we deliver with caliber -- a set of integrated, innovative, comprehensive, and quality end-to-end high technology procurement capabilities, to tailor-fit with care various demands and diverse needs of the global markets and businesses, where substantial key end results and key saving targets are guaranteed.',
+        ':SecondAboutText' : '<i>"InnoChain Solutions company is a collaboration of procurement specialists and digital-technology experts around the globe." <br/> -- ICS Executive President.</i>'
     },
     'de': {
         ':ENG': 'DE',
@@ -83,6 +86,9 @@ lang = {
         ':ContactUS': 'Kontaktiere uns',
         ':Contactinfo': 'Kontakt info',
         ':Message': 'Nachricht',
-        ':submit': 'Einreichen'
+        ':submit': 'Einreichen',
+        ':AboutUsTitle' : 'Über uns',
+        ':FristAboutText' : 'InnoChain Solutions (ICS) ist ein unabhängiges privates Unternehmen, das durch die Zusammenarbeit von Spezialisten für Beschaffungsdienstleistungen und Technologie-Experten von Spitzenunternehmen aus der ganzen Welt besteht. Mit unserer Erfahrung und unseren langjährigen Beziehungen in den jeweiligen Berufsfeldern sind wir bestens gerüstet umfassende, innovative und qualitativ hochwertige Ende-to-End-Beschaffungslösungen zu bieten, die auf unterschiedlichste Anforderungen und Bedürfnisse zugeschnitten sind.',
+        ':SecondAboutText' : '<i>"Das Unternehmen InnoChain Solutions ist eine Zusammenarbeit von Beschaffungsspezialisten und Experten für digitale Technologie auf der ganzen Welt."</i> - ICS-Exekutivpräsident.'
     }
 };

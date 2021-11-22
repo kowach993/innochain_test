@@ -52,10 +52,6 @@ nav {
     
 }
 
-main {
-    height: 1730px;
-}
-
 #cards {
     z-index: 1;
     display: flex;
@@ -131,6 +127,14 @@ main {
     color: #373737;
     text-align: center;
     margin: auto;
+}
+
+#main_home {
+    height: 1730px;
+}
+
+#main_about_us {
+    padding-bottom: 100px;
 }
 
 #section_one {
@@ -286,7 +290,12 @@ main {
         color: #004A94!important;
     }
 
-    footer {
+    #about_us_text_mobile {
+        text-align: center;
+        font-size: 16px!important;
+    }
+
+    #footer_home {
         position: relative;
         top: 1500px;
     }
@@ -296,7 +305,7 @@ main {
         top: 50px;
     }
 
-    #hero {
+    #hero_home {
         background-image: url("/images/hero_img_mobile.jpg");
         height: 100vh;
         background-repeat: no-repeat;
@@ -323,6 +332,14 @@ main {
         font-size: 24px;
         font-weight: 400;
         margin: 0;
+    }
+
+    #hero_about_us {
+        background-image: url("/images/startup-gfdd8fda19_1920\ \(1\).jpg");
+        height: 450px;
+        grid-template-rows: 100px 275px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     #hero_paragraph {
@@ -383,6 +400,10 @@ main {
         padding: 30px;
     }
 
+    #main_about_us {
+        padding: 25px;
+    }
+
     #section_one {
         height: 400px;
     }
@@ -404,6 +425,10 @@ main {
 
     #services_title {
         flex-basis: 100%;
+    }
+
+    .about_us_text {
+        font-size: 16px;
     }
 
     .footer_text {
@@ -476,10 +501,22 @@ main {
         flex-direction: row;
     }
 
-    #hero {
+    #hero_home {
         background-image: url("/images/hero_img.jpg");
         height: 650px;
         grid-template-rows: 100px 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hero_about_us {
+        background-image: url("/images/startup-gfdd8fda19_1920\ \(1\).jpg");
+        height: 450px;
+        grid-template-rows: 100px 275px;
         background-repeat: no-repeat;
         background-size: cover;
         display: grid;
@@ -538,6 +575,17 @@ main {
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;
         width: 1024px;
+    }
+
+    .about_us_text {
+        padding-top: 100px;
+        line-height:40px;
+        word-spacing: 4px;
+        color: #373737;
+        width: 960px;
+        text-align: center;
+        margin: auto;
+        font-size: 23px;
     }
 
     .nav_btn {
