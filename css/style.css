@@ -290,11 +290,6 @@ nav {
         color: #004A94!important;
     }
 
-    #about_us_text_mobile {
-        text-align: center;
-        font-size: 16px!important;
-    }
-
     #footer_home {
         position: relative;
         top: 1500px;
@@ -336,10 +331,18 @@ nav {
 
     #hero_about_us {
         background-image: url("/images/startup-gfdd8fda19_1920\ \(1\).jpg");
-        height: 450px;
-        grid-template-rows: 100px 275px;
+        height: 250px;
+        grid-template-rows: auto auto;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    #hero_services {
+        background-color: whitesmoke;
+        height: 500px;
+        display: grid;
+        grid-template-rows: 100px auto;
+        align-items: center;
     }
     
     #hero_paragraph {
@@ -352,7 +355,6 @@ nav {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
         justify-content:space-around;
-        padding-top: 150px;
         padding: 30px 25px;
     }
 
@@ -427,8 +429,21 @@ nav {
         flex-basis: 100%;
     }
 
+    #services_img {
+        width: 200px;
+    }
+
+    .services_h2 {
+        padding-top: 50px;
+        color: #004A94;
+    }
+
+    .services_text {
+        font-size: 18px;
+    }
+
     .about_us_text {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .footer_text {

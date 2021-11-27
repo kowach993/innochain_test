@@ -43,7 +43,10 @@ lang = {
         ':submit' : 'Submit',
         ':AboutUsTitle' : 'About us',
         ':FristAboutText' : '<span style="font-size: 30px; color: #004A94;">InnoChain Solutions (ICS) </span>is a pro-studded, private, and independent global company built and  joint by a collaboration of procurement services specialists and digital technology experts from top companies in the world. With our work experiences and accumulated researches for many years in our respective job fields, we are fully equipped to assure our clients that we deliver with caliber -- a set of integrated, innovative, comprehensive, and quality end-to-end high technology procurement capabilities, to tailor-fit with care various demands and diverse needs of the global markets and businesses, where substantial key end results and key saving targets are guaranteed.',
-        ':SecondAboutText' : '<i>"InnoChain Solutions company is a collaboration of procurement specialists and digital-technology experts around the globe." <br/> -- ICS Executive President.</i>'
+        ':SecondAboutText' : '<i>"InnoChain Solutions company is a collaboration of procurement specialists and digital-technology experts around the globe." <br/> - ICS Executive President. -</i>',
+        ':ManagementServicesFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span>invests in bulks of multiple procurement services. Using our wide expertise, thorough knowledge, and constant innovation, we are keen in providing our clients, with fully integrated supply management services to give you a complete full source-to-settle and end-to-end solutions towards efficient scale operation system and substantial production gains, which result to optimum cost advantages and cost savings.',
+        ':ManagementServicesSecondText' : 'COVERAGE: <br/>-  Supply Chain Management<br/>-  Supplier Networks<br/>-  Sourcing<br/>-  Commodities<br/>-  Services and Indirect Spend',
+        ':ManagementServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions spots the missing links and the weak units which hinder your business to run smooth and to work in progress."</i>'
     },
     'de': {
         ':ENG': 'DE',
@@ -88,7 +91,10 @@ lang = {
         ':Message': 'Nachricht',
         ':submit': 'Einreichen',
         ':AboutUsTitle' : 'Über uns',
-        ':FristAboutText' : 'InnoChain Solutions (ICS) ist ein unabhängiges privates Unternehmen, das durch die Zusammenarbeit von Spezialisten für Beschaffungsdienstleistungen und Technologie-Experten von Spitzenunternehmen aus der ganzen Welt besteht. Mit unserer Erfahrung und unseren langjährigen Beziehungen in den jeweiligen Berufsfeldern sind wir bestens gerüstet umfassende, innovative und qualitativ hochwertige Ende-to-End-Beschaffungslösungen zu bieten, die auf unterschiedlichste Anforderungen und Bedürfnisse zugeschnitten sind.',
-        ':SecondAboutText' : '<i>"Das Unternehmen InnoChain Solutions ist eine Zusammenarbeit von Beschaffungsspezialisten und Experten für digitale Technologie auf der ganzen Welt."</i> - ICS-Exekutivpräsident.'
+        ':FristAboutText' : '<span style="font-size: 30px; color: #004A94;">InnoChain Solutions (ICS) </span> ist ein unabhängiges privates Unternehmen, das durch die Zusammenarbeit von Spezialisten für Beschaffungsdienstleistungen und Technologie-Experten von Spitzenunternehmen aus der ganzen Welt besteht. Mit unserer Erfahrung und unseren langjährigen Beziehungen in den jeweiligen Berufsfeldern sind wir bestens gerüstet umfassende, innovative und qualitativ hochwertige Ende-to-End-Beschaffungslösungen zu bieten, die auf unterschiedlichste Anforderungen und Bedürfnisse zugeschnitten sind.',
+        ':SecondAboutText' : '<i>"Das Unternehmen InnoChain Solutions ist eine Zusammenarbeit von Beschaffungsspezialisten und Experten für digitale Technologie auf der ganzen Welt."<br/> - ICS-Exekutivpräsident. -</i>',
+        ':ManagementServicesFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span> investiert in eine Vielzahl von Beschaffungsdienstleistungen. Mit unserem breiten Fachwissen, unserem tiefen Wissen und unserer ständigen Innovation sind wir bestrebt, unseren Kunden voll integrierte Beschaffungsmanagementdienste anzubieten. Um Ihnen eine vollständige Source-to-Settle- und End-to-End-Lösung zu bieten, die zu einem effizienten Betriebssystem und erheblichen Produktionsgewinnen führt, die zu optimalen Kostenvorteilen und Kosteneinsparungen führen.',
+        ':ManagementServicesSecondText' : 'Abdeckung:<br/> - Lieferketten-Management<br/> - Lieferanten-Netzwerke<br/> - Beschaffung<br/> - Rohstoffe<br/> - Dienstleistungen und indirekte Ausgaben',
+        ':ManagementServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions erkennt die fehlenden Glieder und die schwachen Einheiten, die Ihr Unternehmen daran hindern, reibungslos zu laufen und in Arbeit zu sein."</i>'
     }
 };
