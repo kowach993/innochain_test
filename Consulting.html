@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <div id="hero_services">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="Innochains logo"></a>
+              <span id="nav-open-bar" class="nav_btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></span>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                    <span id="nav-close-bar" class="nav_btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-times"></i></span>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">:home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./aboutus.html">:AboutUs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#services">:OurServices</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">:ContactUs</a>
+                  </li>
+                  <li class="nav-item">
+                    <select id="langSelector">
+                        <option value=":en">:ENG</option>
+                        <option value=":de">:DE</option>
+                      </select>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div id="hero_img_service" class="text-center">
+            <img id="services_img" src="./images/person-1824144.png" alt="SourcingManagementServices">
+            <h2 class="services_h2">:ConsultingServices</h2>
+        </div>
+    </div>
+    <main id="main_about_us">    
+      <p class="services_text">:ConsultingFristText</p>
+      <p class="services_text">
+        :ConsultingSecondText
+      </p>  
+      <p class="services_text">
+        :ConsultingThirdText
+      </p>
+      <a href="./index.html#services"><i class="fas fa-caret-square-left"></i></a>
+    </main>
+    <footer id="footer_about_us">
+        <div id="footer_container">
+            <div id="footer_text_container">
+                <h1 class="footer_text_title">:Contactinfo</h1>
+                <p class="footer_text">Info: <br/> info@innochains.ch</p>
+                <p class="footer_text">Email: <br/> info@innochains.ch</p>
+                <p class="footer_text">Twitter: <br/> @innochain1</p>
+                <p class="footer_text">Tel: <br/> +41 77 534 50 29</p>
+                <p class="footer_text">Address: <br/> CH-6048 Horw</p>
+            </div>
+            <div id="footer_form">
+                <h1 class="footer_text_title">:ContactUS</h1>
+                <form action="">
+                    <div class="form_container">
+                        <label for="name">Name</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="form_container">
+                        <label for="email">E-Mail</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div class="form_container">
+                        <label for="message">:Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button id="submit_btn" type="submit">:submit</button>
+                </form>
+            </div>
+        </div>
+        <div id="copyright">
+            <img src="./images/LOGO_footer.png" alt="innochains logo">
+            <p class="footer_text">&copy;2021 by InnoChain Solutions.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./js/LanguageSelector.js"></script>
+    <script src="./js/LanguageSelector.min.js"></script>
+    <script src="./js/language.js"></script>
+    <script>
+        l = new LanguageSelector();
+        $(document).on("change", "#langSelector", function () {
+          var s = $(this).children("option:selected").val();
+          l.setLang(s);
+          window.location = "index.html";
+        });
+        l.parse();
+      </script>
+</body>
+</html>
