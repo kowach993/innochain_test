@@ -46,7 +46,13 @@ lang = {
         ':SecondAboutText' : '<i>"InnoChain Solutions company is a collaboration of procurement specialists and digital-technology experts around the globe." <br/> - ICS Executive President. -</i>',
         ':ManagementServicesFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span>invests in bulks of multiple procurement services. Using our wide expertise, thorough knowledge, and constant innovation, we are keen in providing our clients, with fully integrated supply management services to give you a complete full source-to-settle and end-to-end solutions towards efficient scale operation system and substantial production gains, which result to optimum cost advantages and cost savings.',
         ':ManagementServicesSecondText' : 'COVERAGE: <br/>-  Supply Chain Management<br/>-  Supplier Networks<br/>-  Sourcing<br/>-  Commodities<br/>-  Services and Indirect Spend',
-        ':ManagementServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions spots the missing links and the weak units which hinder your business to run smooth and to work in progress."</i>'
+        ':ManagementServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions spots the missing links and the weak units which hinder your business to run smooth and to work in progress."</i>',
+        ':SourcingFirstText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span> upholds its reputation  and strengthens its connection and ties with various global industries to better serve clients, so we can exceed what is expected of us. With our commodities sourcing expertise, we support our clients to have problem-free and stress-free work and business experience, meeting deadlines and being able to focus on critical parts of the business. ',
+        ':SourcingSecondText' : 'Coverage:<br/>-  Agricultural<br/>-  Energy<br/>-  Metals<br/>-  Livestock<br/>-  Logistics',
+        ':SourcingThirdText' : '<i style="color: #004A94;">"InnoChain Solutions has wide and strong business connections around the globe to give you the perfect solutions."</i>',
+        ':FamilyServicesFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span>comprises of flexible and network business intelligences that innovatively frame and find new ways to spot the perfect-fit and tailor-fit category services, strategies, and solutions for our clientsso you can extract more value out of the supply chain. ',
+        ':FamilyServicesSecondText' : 'Coverage:<br/>-  Demand Management<br/>-  Sourcing Strategies<br/>-  Best Cost Sourcing Practices<br/>-  Supply Chain Management<br/>-  Market Assessment<br/>-  Category Intelligence<br/>-  Supplier Strategie',
+        ':FamilyServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions has it all."</i>',        
     },
     'de': {
         ':ENG': 'DE',
@@ -95,6 +101,15 @@ lang = {
         ':SecondAboutText' : '<i>"Das Unternehmen InnoChain Solutions ist eine Zusammenarbeit von Beschaffungsspezialisten und Experten für digitale Technologie auf der ganzen Welt."<br/> - ICS-Exekutivpräsident. -</i>',
         ':ManagementServicesFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span> investiert in eine Vielzahl von Beschaffungsdienstleistungen. Mit unserem breiten Fachwissen, unserem tiefen Wissen und unserer ständigen Innovation sind wir bestrebt, unseren Kunden voll integrierte Beschaffungsmanagementdienste anzubieten. Um Ihnen eine vollständige Source-to-Settle- und End-to-End-Lösung zu bieten, die zu einem effizienten Betriebssystem und erheblichen Produktionsgewinnen führt, die zu optimalen Kostenvorteilen und Kosteneinsparungen führen.',
         ':ManagementServicesSecondText' : 'Abdeckung:<br/> - Lieferketten-Management<br/> - Lieferanten-Netzwerke<br/> - Beschaffung<br/> - Rohstoffe<br/> - Dienstleistungen und indirekte Ausgaben',
-        ':ManagementServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions erkennt die fehlenden Glieder und die schwachen Einheiten, die Ihr Unternehmen daran hindern, reibungslos zu laufen und in Arbeit zu sein."</i>'
+        ':ManagementServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions erkennt die fehlenden Glieder und die schwachen Einheiten, die Ihr Unternehmen daran hindern, reibungslos zu laufen und in Arbeit zu sein."</i>',
+        ':SourcingFirstText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span> wahrt seinen Ruf und stärkt seine Beziehungen mit verschiedenen globalen Industrien, um Kunden besser bedienen zu können. Mit unserem Fachwissen im Bereich Warenbeschaffung unterstützen wir unsere Kunden dabei, stressfrei zu arbeiten, Termine einzuhalten und sich auf kritische Teile des Geschäfts zu konzentrieren. ',
+        ':SourcingSecondText' : 'Abdeckung:<br/>- Landwirtschaft<br/>- Energie<br/>- Metalle<br/>- Viehzucht<br/>- Logistik',
+        ':SourcingThirdText' : '<i style="color: #004A94;">"InnoChain Solutions verfügt über breite und starke Geschäftsverbindungen rund um den Globus, um Ihnen die idealen Lösungen anbieten zu können."</i>',    
+        ':FamilyServicesFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span> besteht aus flexiblen und vernetzten Geschäftsintelligenzen, die auf innovative Weise die perfekt passenden und massgeschneiderten Dienstleistungen, Strategien und Lösungen für unsere Kunden ausfindig machen und neue Wege finden, damit Sie mehr Wert aus der Lieferkette herausholen können.',
+        ':FamilyServicesSecondText' : 'Abdeckung:<br/>- Nachfrage-Management<br/>- Strategien für die Beschaffung<br/>- Best Practice bei der Beschaffung<br/>- Supply Chain Management<br/>- Marktbewertungen<br/>- Kategorie Intelligenz<br/>- Lieferantenstrategie',
+        ':FamilyServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions hat alles."</i>',    
+
+
+
     }
 };
