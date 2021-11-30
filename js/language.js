@@ -52,7 +52,10 @@ lang = {
         ':SourcingThirdText' : '<i style="color: #004A94;">"InnoChain Solutions has wide and strong business connections around the globe to give you the perfect solutions."</i>',
         ':FamilyServicesFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span>comprises of flexible and network business intelligences that innovatively frame and find new ways to spot the perfect-fit and tailor-fit category services, strategies, and solutions for our clientsso you can extract more value out of the supply chain. ',
         ':FamilyServicesSecondText' : 'Coverage:<br/>-  Demand Management<br/>-  Sourcing Strategies<br/>-  Best Cost Sourcing Practices<br/>-  Supply Chain Management<br/>-  Market Assessment<br/>-  Category Intelligence<br/>-  Supplier Strategie',
-        ':FamilyServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions has it all."</i>',        
+        ':FamilyServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions has it all."</i>',      
+        ':ITFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span>  advances information and communications technology to the next level alongside its procurement management systems and services. For you to experience procurement on the next level, we would like to share our IT products and services designed, innovated, and developed by our IT professionals to boost your digital business transactions with high and quality performance.',
+        ':ITSecondText' : 'Coverage:<br/>-  E-Procurement<br/>-  E-Invoicing<br/>-  E-Commerce<br/>-  Cloud Computing Architecture<br/>-  Coding and Programming<br/>-  Software Development<br/>-  Web Teachnology<br/>-  Mobile Applications<br/>-  Testing and Systems Analysis<br/>-  Internal Server<br/>-  Network Administration<br/>-  Creative Digital Designing<br/>-  Technical Support',
+        ':ITThirdText' : '<i style="color: #004A94;">"InnoChains Solutions is the global convergence of high IT experience."</i>',      
     },
     'de': {
         ':ENG': 'DE',
@@ -108,6 +111,9 @@ lang = {
         ':FamilyServicesFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span> besteht aus flexiblen und vernetzten Geschäftsintelligenzen, die auf innovative Weise die perfekt passenden und massgeschneiderten Dienstleistungen, Strategien und Lösungen für unsere Kunden ausfindig machen und neue Wege finden, damit Sie mehr Wert aus der Lieferkette herausholen können.',
         ':FamilyServicesSecondText' : 'Abdeckung:<br/>- Nachfrage-Management<br/>- Strategien für die Beschaffung<br/>- Best Practice bei der Beschaffung<br/>- Supply Chain Management<br/>- Marktbewertungen<br/>- Kategorie Intelligenz<br/>- Lieferantenstrategie',
         ':FamilyServicesThirdText' : '<i style="color: #004A94;">"InnoChain Solutions hat alles."</i>',    
+        ':ITFristText' : '<span style="color: #004A94;">InnoChain Solutions (ICS) </span> bietet Informations- und Kommunikationstechnologie gemeinsam mit Beschaffungsdienstleistungen aus einer Hand. Damit Sie ein Beschaffungswesen auf höchstem Niveau erleben können, möchten wir Ihnen unsere IT-Produkte- und -Dienstleistungspalette vorstellen, die von unseren IT-Fachleuten entworfen und entwickelt werden, um Ihre digitalen Geschäftstransaktionen mit qualitativ hochwertiger Leistung zu unterstützen.',
+        ':ITSecondText' : 'Abdeckung:<br/>- E-Beschaffung<br/>- E-Invoicing<br/>- E-Commerce<br/>- Cloud Computing-Architektur<br/>- Codierung und Programmierung<br/>- Software-Entwicklung<br/>- Web-Lehrtechnik<br/>- Mobile Anwendungen<br/>- Testen und Systemanalyse<br/>- Interner Server<br/>- Netzwerk-Verwaltung<br/>- Kreatives digitales Design<br/>- Technischer Support',
+        ':ITThirdText' : '<i style="color: #004A94;">"InnoChains Solutions ist die globale Konvergenz von hoher IT-Erfahrung."</i>',    
 
 
 
