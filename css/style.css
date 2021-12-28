@@ -32,7 +32,6 @@ input {
     background-color: white;
     border: 1px solid white;
     border-radius: 5px;
-    width: 355px;
     height: 30px;
 }
 
@@ -216,7 +215,7 @@ nav {
 
 .card {
     height: 630px;
-    width: 330px!important;
+    
     border: none!important;
 }
 
@@ -290,6 +289,10 @@ nav {
         color: #004A94!important;
     }
 
+    input {
+        width: 100%;
+    }
+
     #footer_home {
         position: relative;
         top: 1500px;
@@ -355,6 +358,8 @@ nav {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
         justify-content:space-around;
+        min-width: 280px;
+        max-width: 575px;
         padding: 30px 25px;
     }
 
@@ -406,6 +411,11 @@ nav {
         padding: 25px;
     }
 
+    #message {
+        resize: vertical;
+        width: 100%;
+    }
+
     #section_one {
         height: 400px;
     }
@@ -454,12 +464,20 @@ nav {
         flex-basis: 100%;
     }
 
+    #footer_form {
+        min-width: 300px;
+        max-width: 575px;
+    }
+    
+
     .services_links {
         flex-basis: 50%!important;
     }
 
     .card {
         margin-top: 20px;
+        max-width: 350px!important;
+        min-width: 300px!important;
     }
 
     .navbar-nav {
@@ -590,6 +608,10 @@ nav {
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;
         width: 1024px;
+    }
+
+    .card {
+        width: 330px;
     }
 
     .about_us_text {
