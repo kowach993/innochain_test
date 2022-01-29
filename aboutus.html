@@ -48,10 +48,10 @@
         <p data-aos="fade-right" data-aos-duration="2500" class="about_us_text">
           :FristAboutText
         </p>
-        <p data-aos="fade-left" data-aos-duration="3000" class="about_us_text" style="color: #004A94;"><i>:SecondAboutText</i></p>
+        <p data-aos="fade-left" data-aos-duration="3000" class="about_us_text" style="color: #004A94; text-align: center; padding-top: 30px;"><i>:SecondAboutText</i></p>
     </main>
     <footer id="footer_about_us">
-        <div id="footer_container">
+        <div id="footer_cont_as" class="footer_container">
             <div id="footer_text_container">
                 <h1 class="footer_text_title">:Contactinfo</h1>
                 <p class="footer_text">Info: <br/> info@innochains.ch</p>
@@ -59,21 +59,22 @@
                 <p class="footer_text">Twitter: <br/> @innochain1</p>
                 <p class="footer_text">Tel: <br/> +41 77 534 50 29</p>
                 <p class="footer_text">Address: <br/> CH-6048 Horw</p>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10879.482124158487!2d8.3103367!3d47.0231463!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8af789ff4e6aa1f0!2sInnoChain%20Solutions%20AG!5e0!3m2!1ssr!2srs!4v1643480454154!5m2!1ssr!2srs" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div id="footer_form">
                 <h1 class="footer_text_title">:ContactUS</h1>
                 <form action="">
                     <div class="form_container">
                         <label for="name">Name</label>
-                        <input id="name" type="text">
+                        <input id="name" type="text" name="visitor_name">
                     </div>
                     <div class="form_container">
                         <label for="email">E-Mail</label>
-                        <input id="email" type="email">
+                        <input id="email" type="email" name="visitor_email">
                     </div>
                     <div class="form_container">
                         <label for="message">:Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <textarea name="visitor_message" id="message" cols="30" rows="10"></textarea>
                     </div>
                     <button id="submit_btn" type="submit">:submit</button>
                 </form>
