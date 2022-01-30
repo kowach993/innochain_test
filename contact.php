@@ -40,10 +40,7 @@ if($_POST) {
     .'From: ' . $visitor_email . "\r\n";
       
     if(mail($recipient, $email_body, $headers)) {
-        echo "<div style='background-color: #004A94; display: flex;justify-content:center; flex-direction: column; 
-        align-items:center;height:100vh; width: 100%;'><p style='color:white;font-size:50px; font-family: 'Oswald', sans-serif; text-align:center;'>Thank you for contacting us, $visitor_name. You will get a reply within 24 hours.</p>
-        <a href='./index.html'><button style='width: 114px; font-family: 'Oswald', sans-serif; height: 40px; background-color: #004A94; border: 1px solid #004A94; color: white;'>Home</button></a>
-        </div>";
+        header("Location:messagesent.html");
     } else {
         echo '<p>We are sorry but the email did not go through.</p>';
     }
