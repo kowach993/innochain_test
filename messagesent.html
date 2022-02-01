@@ -12,12 +12,27 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            height: 100vh;
         }
 
         h1 {
             color: white;
-            font-size: 40px;
+            font-size: 50px;
             font-family: 'Oswald', sans-serif;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+        }
+
+        @media all and (max-width:975px) {
+            h1 {
+                font-size: 35px;
+            }
         }
     </style>
     <title>Message Sent</title>

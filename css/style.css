@@ -289,7 +289,6 @@ nav {
 @media all and (max-width:576px) {
     a {
         text-decoration: none!important;
-        font-size: 40px;
         color: #004A94!important;
     }
 
@@ -498,6 +497,10 @@ nav {
     .navbar-nav {
         margin-top: 170px;
         text-align: center;
+    }
+
+    .nav-item>a {
+        font-size: 40px;
     }
 
     .navbar-brand {
